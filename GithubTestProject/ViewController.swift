@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         self.centralView.layer.cornerRadius = 30
         
         self.displayMessage()
+        
+        // Alisa - button added
     }
     
     func displayMessage() {
