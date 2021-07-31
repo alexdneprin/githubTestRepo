@@ -15,8 +15,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.centralView.layer.cornerRadius = 0
+        self.centralView.layer.cornerRadius = 30
         
+        self.displayMessage()
+    }
+    
+    func displayMessage() {
+        print("Hello world!")
+        self.centralView.backgroundColor = .red
         self.setNewTitle()
     }
     
