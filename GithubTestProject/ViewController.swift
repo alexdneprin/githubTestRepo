@@ -10,11 +10,10 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var centralView: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
         
         self.centralView.layer.cornerRadius = 30
         
@@ -24,6 +23,11 @@ class ViewController: UIViewController {
     func displayMessage() {
         print("Hello world!")
         self.centralView.backgroundColor = .red
+        self.setNewTitle()
+    }
+    
+    func setNewTitle() {
+        self.titleLabel.text = "Hello!"
     }
 
 
