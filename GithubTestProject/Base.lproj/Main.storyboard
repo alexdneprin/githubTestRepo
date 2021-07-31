@@ -18,6 +18,15 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qgt-Ek-QBv">
                                 <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qok-xT-t42">
+                                        <rect key="frame" x="93" y="17" width="114" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="nSb-K5-VvE"/>
@@ -34,11 +43,12 @@
                     </view>
                     <connections>
                         <outlet property="centralView" destination="Qgt-Ek-QBv" id="NLE-D2-bZP"/>
+                        <outlet property="titleLabel" destination="Qok-xT-t42" id="395-1H-G5d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-41" y="-37"/>
+            <point key="canvasLocation" x="-42.028985507246382" y="-37.5"/>
         </scene>
     </scenes>
     <resources>
