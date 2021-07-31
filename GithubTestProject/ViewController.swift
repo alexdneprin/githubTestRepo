@@ -11,13 +11,19 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var centralView: UIView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         
         self.centralView.layer.cornerRadius = 30
+        
+        self.displayMessage()
+    }
+    
+    func displayMessage() {
+        print("Hello world!")
+        self.centralView.backgroundColor = .red
     }
 
 
